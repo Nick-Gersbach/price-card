@@ -1,0 +1,127 @@
+/* 
+Global Styling
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  line-height: 1.7;
+}
+
+body {
+  background: hsl(204, 43%, 93%);
+}
+
+.container {
+  width: 90%;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.price-card-container {
+  width: 60%;
+}
+
+/* 
+
+
+Top Text 
+
+
+*/
+
+.top-text-container {
+  background: white;
+  border-radius: 10px 10px 0px 0px;
+  padding-top: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.top-text-container {
+  background: white;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.top-text-container h1 {
+  color: hsl(179, 62%, 43%);
+  padding-bottom: 0.4rem;
+}
+
+.top-text-container h2 {
+  color: hsl(71, 73%, 54%);
+  padding-bottom: 0.5rem;
+}
+
+.top-text-container p {
+  color: hsl(218, 22%, 67%);
+  padding-bottom: 3rem;
+  width: 82%;
+}
+
+/* 
+
+
+Monthly Subscription
+
+
+*/
+
+.monthly-sub-container {
+  background: #2bb3b1;
+  color: white;
+}
+
+.monthly-sub-text {
+  padding-top: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.big-text {
+  font-size: 34px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.transparent-text {
+  opacity: 0.5;
+}
+
+.full-access {
+  font-size: 18px;
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 2.5rem;
+  padding-bottom: 3.5rem;
+}
+
+button {
+  background: hsl(71, 73%, 54%);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  width: 38%;
+  font-size: 18px;
+}
+
+/* 
+
+
+Why Us
+
+
+*/
+
+.why-us-container {
+  background: #4abebd;
+  color: white;
+}
+
+.why-us-text {
+  padding-top: 2.5rem;
+  padding-left: 2.5rem;
+}
